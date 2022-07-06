@@ -8,6 +8,6 @@ public class Praktikum {
              и вызвать метод, который проверяет, можно ли использовать фамилию и имя для печати на банковской карте.
          */
         Account account = new Account("axMelA ndr5555550 77");
-        System.out.println(account.checkNameToEmboss());
+        account.checkNameToEmboss();
     }
 }
