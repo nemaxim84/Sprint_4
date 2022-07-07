@@ -30,6 +30,7 @@ public class AccountTest {
     @Test
     @DisplayName("Проверка работы проверки валидности имени")
     public void checkNameTest() {
-        Assert.assertEquals(new Account(name).checkNameToEmboss(), checkName);
+        Assert.assertEquals(checkName, new Account(name).checkNameToEmboss());
     }
+
 }
